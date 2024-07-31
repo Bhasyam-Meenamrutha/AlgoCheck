@@ -1,0 +1,16 @@
+body {
+    background-image: url('C:/Users/ASUS/AlgoCheck/balance-checker1/src/algoC.jpg');
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: 20px center; /* Move the image 20px to the right and center it vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set the height to cover the entire viewport */
+  }
+
+h4{
+    color: aliceblue;
+}
+h2{
+    color: antiquewhite;
+}
+

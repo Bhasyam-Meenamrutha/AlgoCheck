@@ -25,7 +25,7 @@
   gap: 1em;
   margin: 2em;
   padding: 2em;
-  background-color: light-dark(rgba(0, 0, 0, 0.025), rgba(255, 255, 255, 0.025));
+  background-color: light-dark(rgba(199, 28, 28, 0.025), rgba(255, 255, 255, 0.025));
   border-color: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
   border-style: solid;
   border-width: 1px;
@@ -73,6 +73,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.6em;
+  
 }
 
 .input-group label {

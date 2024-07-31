@@ -1,6 +1,8 @@
 import { NetworkId, WalletId, useWallet, type Wallet } from '@txnlab/use-wallet-react'
 import algosdk from 'algosdk'
 import * as React from 'react'
+import './Connect.css'; 
+
 
 export function Connect() {
   const {
@@ -78,14 +80,16 @@ export function Connect() {
           </button>
         </div>
       </div>
+      <h2>Scan to Check Balance</h2>
 
       {wallets.map((wallet) => (
         <div key={wallet.id} className="wallet-group">
           <h4>
             {wallet.metadata.name} {wallet.isActive ? '[active]' : ''}
           </h4>
-
+          
           <div className="wallet-buttons">
+            
             <button
               type="button"
               onClick={() => wallet.connect()}
